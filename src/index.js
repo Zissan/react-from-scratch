@@ -1,3 +1,4 @@
-import { add } from "./utility";
+import React from "react";
+import { render } from "react-dom";
 
-console.log(add(1, 2));
+render(<div>Hello, World</div>, document.getElementById("mount"));
