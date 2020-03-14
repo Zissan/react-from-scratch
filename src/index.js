@@ -1,1 +1,3 @@
-console.log("INITIAL SETUP DONE");
+import { add } from "./utility";
+
+console.log(add(1, 2));
